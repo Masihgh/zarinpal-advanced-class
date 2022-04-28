@@ -11,13 +11,16 @@
 */
 
 require_once("zarinpal_function.php");
+//or in laravel
+use App/Libs/Zarinpal;
+
 
 $MerchantID 	= "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
 $Amount 		= 100;
 $ZarinGate 		= false;
 $SandBox 		= false;
 
-$zp 	= new zarinpal();
+$zp 	= new Zarinpal();
 $result = $zp->verify($MerchantID, $Amount, $SandBox, $ZarinGate);
 
 if (isset($result["Status"]) && $result["Status"] == 100)
