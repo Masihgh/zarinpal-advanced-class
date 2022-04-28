@@ -3,11 +3,19 @@ ZarinPal Advanced Class AND PHP Sample Code
 
 Document : https://miladworkshop.ir/blog/26-zarinpal-advanced-class.html
 
+# Laravel Usage
+* create folder to root project -> Librarys
+* add Zarinpal.php Here
+* use namespase and work it! XD
+
 # Sample Reuest PHP Code :
 
 ```
 <?php
 require_once("zarinpal_function.php");
+//or
+use Librarys/Zarinpal;
+
 
 $MerchantID 	          = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
 $Amount 		  = 100;
@@ -38,6 +46,8 @@ if (isset($result["Status"]) && $result["Status"] == 100)
 ```
 <?php
 require_once("zarinpal_function.php");
+//or
+use Librarys/Zarinpal;
 
 $MerchantID 	     = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
 $Amount           = 100;
