@@ -22,7 +22,7 @@ $Amount 		  = 100;
 $ZarinGate 		  = false;
 $SandBox 		  = false;
 
-$zp 	= new zarinpal();
+$zp 	= new Zarinpal();
 $result = $zp->verify($MerchantID, $Amount, $SandBox, $ZarinGate);
 
 if (isset($result["Status"]) && $result["Status"] == 100)
@@ -58,7 +58,7 @@ $CallbackURL 	    = "http://example.com/verify.php";
 $ZarinGate 		  = false;
 $SandBox 		  = false;
 
-$zp 	= new zarinpal();
+$zp 	= new Zarinpal();
 $result = $zp->request($MerchantID, $Amount, $Description, $Email, $Mobile, $CallbackURL, $SandBox, $ZarinGate);
 
 if (isset($result["Status"]) && $result["Status"] == 100)
