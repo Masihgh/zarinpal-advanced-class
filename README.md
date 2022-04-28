@@ -4,7 +4,7 @@ ZarinPal Advanced Class AND PHP Sample Code
 Document : https://miladworkshop.ir/blog/26-zarinpal-advanced-class.html
 
 # Laravel Usage
-* create folder to root project -> Librarys
+* create folder to root App project -> App/Libs
 * add Zarinpal.php Here
 * use namespase and work it! XD
 
@@ -13,8 +13,8 @@ Document : https://miladworkshop.ir/blog/26-zarinpal-advanced-class.html
 ```
 <?php
 require_once("zarinpal_function.php");
-//or
-use Librarys/Zarinpal;
+//or in laravel
+use App/Libs/Zarinpal;
 
 
 $MerchantID 	          = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
@@ -46,8 +46,8 @@ if (isset($result["Status"]) && $result["Status"] == 100)
 ```
 <?php
 require_once("zarinpal_function.php");
-//or
-use Librarys/Zarinpal;
+//or in laravel
+use App/Libs/Zarinpal;
 
 $MerchantID 	     = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
 $Amount           = 100;
