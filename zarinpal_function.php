@@ -10,7 +10,7 @@
  * website 	: https://miladworkshop.ir
 */
 
-class zarinpal
+class Zarinpal
 {
 	private function curl_check()
 	{
