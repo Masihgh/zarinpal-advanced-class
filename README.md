@@ -1,8 +1,8 @@
-# ZarinPal Advanced Class
-ZarinPal Advanced Class AND PHP Sample Code
+# ZarinPal Advanced Class + Laravel
+ZarinPal Advanced Class AND PHP Sample Code + Laravel Totorial
 
-Document : https://miladworkshop.ir/blog/26-zarinpal-advanced-class.html
 
+Document : https://miladworkshop.ir/blog/26-zarinpal-advanced-class.html XD
 # Laravel Usage
 * create folder to root App project -> App/Libs
 * add Zarinpal.php Here
