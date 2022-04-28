@@ -11,6 +11,8 @@
 */
 
 require_once("zarinpal_function.php");
+//or in laravel
+use App/Libs/Zarinpal;
 
 $MerchantID 	= "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
 $Amount 		= 100;
