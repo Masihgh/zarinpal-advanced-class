@@ -10,7 +10,7 @@ Document : https://miladworkshop.ir/blog/26-zarinpal-advanced-class.html XD
 
 # Sample Reuest PHP Code :
 
-```
+```php
 <?php
 require_once("zarinpal_function.php");
 //or in laravel
@@ -43,7 +43,7 @@ if (isset($result["Status"]) && $result["Status"] == 100)
 
 # Sample Verify PHP Code :
 
-```
+```php
 <?php
 require_once("zarinpal_function.php");
 //or in laravel
